@@ -3,8 +3,8 @@ import ButtonA from '../elements/ButtonA'
 import { useEffect, useState } from 'react'
 
 function Presentation(){
-    const [text, setText] = useState('');
-    const toRotate = ['Diogo Garrier!', 'Desenvolvedor Front End', 'Product Manager'];
+    const [text, setText] = useState(''); 
+    const toRotate = ['Diogo Garrier!', 'Desenvolvedor Full Stack',];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period =  100
