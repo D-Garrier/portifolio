@@ -26,7 +26,7 @@ function Card({img,title, tech, description, repo, site}){
                 <p><strong>Tecnologia:</strong> {tech}</p>
                 <p>{description}</p>
                 <ButtonB text='Acesse meu repositório.' link={repo}/>
-            </section>
+                </section>
              )}
         </div>
     )
