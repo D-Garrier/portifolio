@@ -5,8 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Image/background.svg);
-  color: aliceblue;
+  background-color: #1c120c;
+  color: #faebd7;
+  /* Antique White */
 }
 
 code {

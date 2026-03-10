@@ -1,19 +1,19 @@
 import styles from './Navbar.module.css'
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import Nav from 'react-bootstrap/Nav'
 
-function Navbar(){
+function Navbar() {
     return (
         <div className={styles.navbar}>
             <ul>
                 <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
                 <li><Nav.Link href='#Skills'>Habilidades</Nav.Link></li>
+                <li><Nav.Link href='#Experience'>Experiência</Nav.Link></li>
                 <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li><a href='https://www.instagram.com/diogogarrier/'><FaInstagram size={30}/></a></li>
-                <li><a href='https://www.linkedin.com/in/diogogarrier/'><FaGithub size={30}/></a></li>
-                <li><a href='https://github.com/diogogarrier/'><FaLinkedin size={30}/></a></li>
+                <li><a href='https://www.instagram.com/diogogarrier/'><FaInstagram size={30} /></a></li>
+                <li><a href='https://www.linkedin.com/in/diogo-garrier-9938b9185/'><FaLinkedin size={30} /></a></li>
             </ul>
         </div>
     )

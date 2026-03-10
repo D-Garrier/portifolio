@@ -1,33 +1,31 @@
 import styles from './Card.module.css'
-import ButtonB from './ButtonB'
-import {useState} from 'react'
+import { useState } from 'react'
 
-function Card({img,title, tech, description, repo, site}){
-   
-    const [info, setInfo] = useState(false) 
+function Card({ img, title, tech, description }) {
 
-    function InfoOn(){
+    const [info, setInfo] = useState(false)
+
+    function InfoOn() {
         setInfo(true)
     }
-   
-    function InfoOff(){
+
+    function InfoOff() {
         setInfo(false)
     }
 
-    return(
+    return (
         <div onMouseLeave={InfoOff} className={styles.card}>
-            <a onMouseEnter = {InfoOn} href={site}>
-                <img src={img} alt='ERROR'/>
-            </a>
+            <div onMouseEnter={InfoOn}>
+                <img src={img} alt='Projeto de Marcenaria' />
+            </div>
 
-            {info === true &&(
+            {info === true && (
                 <section>
-                <h3>{title}</h3>
-                <p><strong>Tecnologia:</strong> {tech}</p>
-                <p>{description}</p>
-                <ButtonB text='Acesse meu repositório.' link={repo}/>
+                    <h3>{title}</h3>
+                    <p><strong>Detalhes:</strong> {tech}</p>
+                    <p>{description}</p>
                 </section>
-             )}
+            )}
         </div>
     )
 }
