@@ -7,7 +7,7 @@ function Experience() {
             <div className={styles.timeline}>
                 <div className={styles.job}>
                     <h3>Supervisor de Marcenaria</h3>
-                    <h4>FORM Móveis Planejados</h4>
+                    <h4>Confidencial</h4>
                     <span>jan de 2026 - o momento | Valinhos, SP</span>
                     <p>Supervisão de produção e equipe. Ferramentas: Dinabox, SketchUp, entre outras.</p>
                 </div>

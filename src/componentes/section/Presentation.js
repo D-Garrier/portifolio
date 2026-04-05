@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 function Presentation() {
     const [text, setText] = useState('');
-    const toRotate = ['Marceneiro!', 'Projetista Executivo', 'Supervisor'];
+    const toRotate = ['Projetista Executivo', 'Parceiro Terceirizado', 'Especialista em Montagens'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period = 100
@@ -40,9 +40,9 @@ function Presentation() {
         <div className={styles.presentation} id="Presentation">
             <h4><strong>Bem-vindo ao meu Portfólio</strong></h4>
             <h1>Olá, eu sou {text}</h1>
-            <p>Sou um profissional apaixonado por Marcenaria.</p>
-            <p>Tenho experiência contínua e prática em marcenaria, projetos executivos e supervisão de produção.</p>
-            <p>Destaco-me na <strong>solução de problemas, excelência em acabamentos, manuseio seguro de ferramentas e comunicação eficaz</strong> em obras e com clientes.</p>
+            <p>Ofereço <strong>serviços terceirizados completos</strong> para lojas de móveis planejados e marcenarias.</p>
+            <p>Meu pacote técnico inclui: <strong>medição no local, projeto executivo (Promob, Dinabox) e instalação impecável na casa do cliente.</strong></p>
+            <p>Tenho vasta experiência técnica e prática que garantem <strong>solução de problemas, excelência em acabamentos e tranquilidade para o lojista e o cliente final.</strong></p>
             <ButtonA link='https://www.linkedin.com/in/diogo-garrier-9938b9185/' text='Conecte-se comigo!' />
         </div>
     )

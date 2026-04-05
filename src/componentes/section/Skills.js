@@ -8,19 +8,19 @@ function Skills() {
             <div className={styles.skillList}>
                 <div className={styles.skillItem}>
                     <h3>Projetos Executivos</h3>
-                    <p>Criação técnica, plano de corte, e preparação para produção.</p>
+                    <p>Pacote técnico completo: medição no local, plano de corte e preparação para produção.</p>
                 </div>
                 <div className={styles.skillItem}>
                     <h3>Softwares</h3>
-                    <p>Promob, SketchUp, Dinabox.</p>
+                    <p>Promob, Dinabox, SketchUp.</p>
                 </div>
                 <div className={styles.skillItem}>
-                    <h3>Marcenaria Prática</h3>
-                    <p>Manuseio preciso de ferramentas manuais e elétricas, montagem e acabamento fino.</p>
+                    <h3>Instalação e Montagem</h3>
+                    <p>Instalação na casa do cliente, manuseio preciso de ferramentas e acabamento fino.</p>
                 </div>
                 <div className={styles.skillItem}>
                     <h3>Gestão e Comunicação</h3>
-                    <p>Supervisão de produção sustentável, facilidade em solucionar problemas e comunicação interpessoal eficaz.</p>
+                    <p>Atendimento direto a lojas e clientes finais, comunicação eficaz e solução de problemas em obra.</p>
                 </div>
             </div>
         </div>
